@@ -10,7 +10,6 @@
 ul {
     list-style: none;
 }
-
 .wrapper {
     background-image: url(../jpg/page-bg.jpg);
     background-color: #0000ff;
@@ -31,8 +30,13 @@ ul {
     font-family: Arial, sans-serif;
 
 }
+body {
+    counter-reset: titlecount list-itemcount;
+}
 
 .title {
+    display: inline-block;
+    width: 90%;
     font-family: 'Pathway Gothic One', sans-serif;
     /*ttu*/
     text-transform: uppercase;
@@ -41,8 +45,8 @@ ul {
     color: #263555;
     /*mb27*/
     margin-bottom: 27px;
-
 }
+
 
 .plane {
     display: block;
@@ -50,6 +54,8 @@ ul {
 }
 
 .sub-title {
+    display: inline-block;
+    width: 90%;
     color: #263555;
     font-size: 14px;
     margin-bottom: 22px;
@@ -61,11 +67,44 @@ ul {
 }
 
 .article {
+    counter-increment: titlecount;
     margin-bottom: 51px;
+}
+.article::before {
+    content: counter(titlecount, upper-roman);
+
+    display: inline-block;
+
+    width: 29px;
+
+    height: 29px;
+
+    text-decoration-color: #263555;
+
+    text-align: center;
+
+    line-height: 29px;
 }
 
 .list-item {
+    counter-increment: list-itemcount;
     margin-bottom: 25px;
+}
+.list-item::before {
+    content: counter(list-itemcount);
+
+    display: inline-block;
+
+    width: 20px;
+
+    height: 20px;
+
+    border-radius: 50%;
+    background: radial-gradient(#55ddff, #0081b5);
+
+    text-align: center;
+
+    line-height: 20px;
 }
 
 .list-item:last-child {
