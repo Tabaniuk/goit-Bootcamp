@@ -1,0 +1,88 @@
+* {
+    /*m0+p0+bszbb*/
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+}
+.wrapper {
+    font-weight: 400;
+    width: 900px;
+    padding-top:  40px;
+    padding-bottom: 70px;
+    margin: auto;
+     }
+.menu {
+    text-align: center;
+    padding: 50px 50px;
+    background-color: #fff;
+
+    }
+
+.menu-item {
+    font-family: Arial, sans-serif;
+    display: inline-block;
+    margin-right: 100px;
+
+}
+
+.menu-item:last-child {
+    margin-right: 0;
+}
+.menu-item:hover {
+    background-color: thistle;
+    text-decoration-color: seashell;
+    transition: 1s;
+    color: seashell;
+}
+.img-article {
+    margin-bottom: 25px;
+    font-family: 'Pathway Gothic One', sans-serif;
+    /*ttu*/
+    text-transform: uppercase;
+    /*fsz*/
+    font-size: 25px;
+    color: #263555;
+    /*padding: 25px;*/
+    /*mb27*/
+}
+
+
+.span-article {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 12px;
+    color: rgba(98, 98, 98, 255);
+}
+/*.sub-title {*/
+    /*color: #263555;*/
+    /*font-size: 14px;*/
+    /*margin-bottom: 22px;*/
+/*}*/
+
+.p-article {
+    color: #4e5050;
+    font-size: 12px;
+}
+
+.article {
+    margin-right: 56px;
+    width: 420px;
+    margin-bottom: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.article:nth-child(2n+2){
+    margin-right: 0;
+}
+
+.h2-article {
+    margin-bottom: 39px;
+    font-size: 30px;
+    color: rgba(98, 98, 98, 255);
+}

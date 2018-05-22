@@ -1,0 +1,34 @@
+@import "variable.css";
+.ul {
+    list-style: 0;
+    text-align: block;
+}
+/*.menu {}*/
+
+
+.startmenu {
+    display: inline-block;
+    background-color darkblue;
+    font-size: 40px;
+    padding 10px 20px;
+    vertical-align: top;
+    position: relative;
+}
+.startmenu:hover {
+    background-color: green;
+    transition: 1s;
+}
+.sub-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    width: 100%;
+}
+.startmenu:hover > .sub-menu {
+    display: block;
+}
+.sub-menu:hover {
+    background-color: grey;
+    transition: 1s;
+}
