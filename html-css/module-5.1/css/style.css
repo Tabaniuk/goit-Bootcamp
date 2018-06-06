@@ -90,7 +90,7 @@
     display: inline-block;
     position: relative;
     width: 255px;
-    height: 312px;
+    /*height: 312px;*/
     background-color: rgba(0, 0, 0, 0.5);
     margin-right: 20px;
     margin-bottom: 50px;
@@ -106,7 +106,7 @@
 
 .pic {
     display: block;
-    margin-bottom: 16px;
+    /*margin-bottom: 16px;*/
 }
 
 .name {
