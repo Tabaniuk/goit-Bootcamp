@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Sketchetica';
+    src: url('../fonts/Sketchetica-light/Sketchetica-Light.woff2') format('woff2'),
+    url('../fonts/Sketchetica-light/Sketchetica-Light.woff') format('woff'),
+    url('../fonts/Sketchetica-light/Sketchetica-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Sketchetica';
+    src: url('../fonts/Sketchetica-Bold/Sketchetica-Bold.woff2') format('woff2'),
+    url('../fonts/Sketchetica-Bold/Sketchetica-Bold.woff') format('woff'),
+    url('../fonts/Sketchetica-Bold/Sketchetica-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.text {
+    font-size: 50px;
+    font-family: 'Sketchetica', sans-serif;
+    font-weight: 300;
+}
+
+.bolt {
+    font-family: 'Sketchetica', sans-serif;
+    font-weight: 700;
+}

@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'SENYUM V1';
+    src: url('../fonts2/SENYUM V1/SENYUM V1.woff2')format('woff2'),
+    url('../fonts2/SENYUM V1/SENYUM V1.woff')format('woff'),
+    url('../fonts2/SENYUM V1/SENYUM V1.ttf')format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'mistral';
+    src: url('../fonts2/Mistral W02/Mistral W02.woff2')format('woff2'),
+    url('../fonts2/Mistral W02/Mistral W02.woff')format('woff'),
+    url('../fonts2/Mistral W02/Mistral W02.ttf')format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Velvet Teen W01 Regular';
+    src: url('../fonts2/Velvet Teen W01 Regular/Velvet Teen W01 Regular.woff2')format('woff2'),
+    url('../fonts2/Velvet Teen W01 Regular/Velvet Teen W01 Regular.woff')format('woff'),
+    url('../fonts2/Velvet Teen W01 Regular/Velvet Teen W01 Regular.ttf')format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+.header {
+    font-family: 'mistral', sans-serif;
+    font-weight: 800;
+}
+
+.p {
+    font-size: 50px;
+    font-family: 'SENYUM V1', sans-serif;
+    font-weight: 300;
+}
+
+.span {
+    font-family: 'Velvet Teen W01 Regular', sans-serif;
+    font-weight: 600;
+}

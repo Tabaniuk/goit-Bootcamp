@@ -1,0 +1,14 @@
+.wrapper-footer {
+    background-color: #000000;
+    padding: 2rem 0;
+}
+
+.text {
+    color: #ffffff;
+    text-align: center;
+}
+
+.wrapper-footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}

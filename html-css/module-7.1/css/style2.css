@@ -1,0 +1,51 @@
+@import "font2.css";
+
+
+.table {
+    width: 500px;
+    margin:auto;
+    border-collapse: collapse;
+    text-transform: capitalize;
+
+}
+.caption {
+    font-size: 30px;
+    text-transform: capitalize;
+}
+.zagolovok {
+    background-color: #800000;
+    color: aqua;
+    font-size: 30px;
+    text-transform: capitalize;
+}
+
+td,th {
+    border: 3px solid #000000;
+    text-align: center;
+}
+.salat {
+    background-color: #FF00FF;
+    text-transform: capitalize;
+    color: #800080;
+    text-align: center;
+}
+.sup {
+    text-transform: capitalize;
+    background-color: #00FF00;
+    text-align: center;
+}
+.login-form {
+
+}
+::placeholder {
+    /*стилизировать*/
+}
+input {
+    display: block;
+    transition: 1s;
+}
+input:focus {
+    background-color: #800000;
+    transform: 1.2;
+}
+

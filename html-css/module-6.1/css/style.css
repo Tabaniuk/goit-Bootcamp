@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    border: 10px solid goldenrod;
+    height: 100vh;
+    flex-wrap: wrap;
+    /*flex-direction: row;*/
+    /*flex-direction: column;*/
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column-reverse;*/
+    /*flex-direction: cross ...;*/
+    /*justify-content: flex-start; левый угол прижаты*/
+    /*justify-content: flex-end; прижимает вправо*/
+    /*justify-content: space-between; прижимается по краям слева и с права*/
+    /*justify-content: space-around; половина отступов*/
+    /*justify-content: space-evenly; все семетричные отступы*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+    /*align-content: flex-start;*/
+    /*align-content: space-around; jcsa*/
+}
+/*.box {*/
+    /*order: 0; по умолчанию*/
+/*}*/
+.box {
+    align-self: flex-start;
+    align-self: center;
+    align-self: flex-end;
+    width: 900px;
+  1  flex-basis: 40%;
+  2  flex-grow: 1; и все свободное пространство для бокса 1, за пропорцию отвечают
+  3  flex-shrink: 10;
+}
